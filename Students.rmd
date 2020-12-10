@@ -1,0 +1,20 @@
+```{r}
+library(lpSolveAPI)
+a <- read.lp("Students.lp")
+a
+```
+
+
+```{r}
+solve(a)
+get.objective(a)
+get.variables(a)
+```
+
+
+
+
+
+
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
