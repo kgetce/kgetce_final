@@ -3,7 +3,8 @@ library(lpSolveAPI)
 a <- read.lp("Students.lp")
 a
 ```
-
+Model name: 
+  a linear program with 48 decision variables and 28 constraints
 
 ```{r}
 solve(a)
@@ -11,7 +12,9 @@ get.objective(a)
 get.variables(a)
 ```
 
-
+[1] 0
+[1] 40.1
+ [1] 0 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 1 0 1 0 1 0 0 0 0 1 0 0 0 0
 
 
 
